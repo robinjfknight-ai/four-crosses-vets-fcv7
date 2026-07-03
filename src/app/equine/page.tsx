@@ -60,7 +60,7 @@ export default function EquinePage() {
             <div className="overflow-hidden rounded-3xl">
               {/* eslint-disable-next-line @next/next/no-img-element */}
               <img
-                src="/images/equine-horses.jpg"
+                src="/images/hero-equine.png"
                 alt="Horses grazing"
                 className="aspect-[4/3] w-full object-cover"
               />
