@@ -41,17 +41,9 @@ function TeamCard({ member }: { member: TeamMember }) {
 export default function TeamPage() {
   return (
     <>
-      {/* Hero */}
-      <section className="relative flex min-h-[45vh] flex-col items-start justify-end pb-20 bg-dark">
-        {/* eslint-disable-next-line @next/next/no-img-element */}
-        <img
-          src="/images/team/richard-newing.jpg"
-          alt="Four Crosses vet in the Powys countryside"
-          className="absolute inset-0 h-full w-full object-contain"
-          style={{ objectPosition: "center top" }}
-        />
-        <div className="absolute inset-0 bg-gradient-to-t from-dark/92 via-dark/50 to-dark/10" />
-        <div className="relative mx-auto w-full max-w-7xl px-5 sm:px-8">
+      {/* Header */}
+      <section className="bg-navy pt-36 pb-20">
+        <div className="mx-auto w-full max-w-7xl px-5 sm:px-8">
           <p className="text-xs font-semibold uppercase tracking-[0.2em] text-copper">The people behind the practice</p>
           <h1 className="mt-3 text-white">Our team</h1>
           <p className="mt-4 max-w-xl text-lg leading-relaxed text-white/70">
