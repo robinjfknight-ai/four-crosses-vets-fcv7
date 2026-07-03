@@ -42,7 +42,7 @@ export default function TeamPage() {
   return (
     <>
       {/* Hero */}
-      <section className="relative flex min-h-[55vh] flex-col items-start justify-end pb-20">
+      <section className="relative flex min-h-[45vh] flex-col items-start justify-end pb-20">
         {/* eslint-disable-next-line @next/next/no-img-element */}
         <img
           src="/images/team/richard-newing.jpg"

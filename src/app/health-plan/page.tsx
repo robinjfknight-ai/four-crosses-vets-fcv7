@@ -76,13 +76,21 @@ export default function HealthPlanPage() {
   return (
     <>
       {/* Hero */}
-      <section className="bg-navy pt-36 pb-20">
-        <div className="mx-auto max-w-7xl px-5 sm:px-8">
+      <section className="relative flex min-h-[65vh] flex-col items-start justify-end pb-20">
+        {/* eslint-disable-next-line @next/next/no-img-element */}
+        <img
+          src="/images/hero-health.png"
+          alt="Dogs and cat together"
+          className="absolute inset-0 h-full w-full object-cover"
+          style={{ objectPosition: "center 60%" }}
+        />
+        <div className="absolute inset-0 bg-gradient-to-t from-dark/92 via-dark/45 to-dark/10" />
+        <div className="relative mx-auto w-full max-w-7xl px-5 sm:px-8">
           <p className="text-xs font-semibold uppercase tracking-[0.2em] text-copper">Four Crosses Pet Health Club</p>
-          <h1 className="mt-4 max-w-3xl text-white" style={{ fontSize: "3.5rem", lineHeight: "3.75rem" }}>
+          <h1 className="mt-3 text-white">
             Simple, affordable preventive care
           </h1>
-          <p className="mt-5 max-w-xl text-lg leading-relaxed text-white/65">
+          <p className="mt-4 max-w-xl text-lg leading-relaxed text-white/70">
             One monthly direct debit. Everything your pet needs to stay healthy. No surprises.
           </p>
           <div className="mt-8 flex flex-wrap gap-3">

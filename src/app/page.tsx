@@ -48,10 +48,9 @@ export default function HomePage() {
       <section className="relative flex min-h-[70vh] flex-col items-start justify-end pb-20">
         {/* eslint-disable-next-line @next/next/no-img-element */}
         <img
-          src="/images/hero-becca.jpg"
-          alt="Veterinary surgeon holding a Saint Bernard puppy"
-          className="absolute inset-0 h-full w-full object-cover"
-          style={{ objectPosition: "center 15%" }}
+          src="/images/hero-cows.png"
+          alt="Hereford cattle in a sunlit field"
+          className="absolute inset-0 h-full w-full object-cover object-center"
         />
         <div className="absolute inset-0 bg-gradient-to-t from-dark/95 via-dark/50 to-dark/10" />
         <div className="relative mx-auto w-full max-w-7xl px-5 sm:px-8">
