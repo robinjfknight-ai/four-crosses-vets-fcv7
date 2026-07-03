@@ -1,0 +1,55 @@
+@import "tailwindcss";
+
+@theme {
+  --font-display: var(--font-fraunces);
+  --font-sans: var(--font-inter);
+
+  --color-navy: #1C3150;
+  --color-navy-dark: #111E33;
+  --color-navy-mid: #2C4B73;
+  --color-navy-light: #E8EFF6;
+  --color-copper: #C4742A;
+  --color-copper-dark: #9E5C1E;
+  --color-copper-light: #FBF0E3;
+  --color-cream: #F5F0E8;
+  --color-paper: #FFFFFF;
+  --color-ink: #1A1D28;
+  --color-mist: #5D6878;
+  --color-dark: #0D1522;
+}
+
+body {
+  background: var(--color-cream);
+  color: var(--color-ink);
+  line-height: 1.65;
+  font-optical-sizing: auto;
+  font-feature-settings: "kern", "liga", "calt";
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+
+h1 {
+  font-family: var(--font-display);
+  font-weight: 450;
+  font-size: 4.5rem;
+  line-height: 4.75rem;
+  letter-spacing: -0.025em;
+  text-wrap: balance;
+  font-variation-settings: "opsz" 48;
+}
+h2 {
+  font-family: var(--font-display);
+  font-weight: 450;
+  font-size: 2.75rem;
+  line-height: 3rem;
+  letter-spacing: -0.02em;
+  text-wrap: balance;
+  font-variation-settings: "opsz" 32;
+}
+h3, h4 {
+  font-family: var(--font-display);
+  font-weight: 450;
+  text-wrap: balance;
+  font-variation-settings: "opsz" 20;
+}
+p { text-wrap: pretty; }
