@@ -76,7 +76,7 @@ export default function HealthPlanPage() {
   return (
     <>
       {/* Hero */}
-      <section className="relative flex min-h-[65vh] flex-col items-start justify-end pb-20">
+      <section className="relative flex min-h-[50vh] flex-col items-start justify-end pb-16 lg:min-h-[58vh] lg:pb-20 xl:min-h-[65vh]">
         {/* eslint-disable-next-line @next/next/no-img-element */}
         <img
           src="/images/hero-health.png"

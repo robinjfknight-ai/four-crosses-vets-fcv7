@@ -31,8 +31,8 @@ body {
 h1 {
   font-family: var(--font-display);
   font-weight: 450;
-  font-size: 4.5rem;
-  line-height: 4.75rem;
+  font-size: clamp(2rem, 3.5vw, 4.5rem);
+  line-height: 1.08;
   letter-spacing: -0.025em;
   text-wrap: balance;
   font-variation-settings: "opsz" 48;
@@ -40,8 +40,8 @@ h1 {
 h2 {
   font-family: var(--font-display);
   font-weight: 450;
-  font-size: 2.75rem;
-  line-height: 3rem;
+  font-size: clamp(1.5rem, 2.2vw, 2.75rem);
+  line-height: 1.1;
   letter-spacing: -0.02em;
   text-wrap: balance;
   font-variation-settings: "opsz" 32;

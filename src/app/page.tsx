@@ -45,7 +45,7 @@ export default function HomePage() {
   return (
     <>
       {/* ── Hero ─────────────────────────────────────────────────────── */}
-      <section className="relative flex min-h-[70vh] flex-col items-start justify-end pb-20">
+      <section className="relative flex min-h-[55vh] flex-col items-start justify-end pb-16 lg:min-h-[65vh] lg:pb-20 xl:min-h-[70vh]">
         {/* eslint-disable-next-line @next/next/no-img-element */}
         <img
           src="/images/hero-cows.png"
