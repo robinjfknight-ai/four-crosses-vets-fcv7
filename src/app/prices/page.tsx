@@ -79,7 +79,7 @@ export default function PricesPage() {
   return (
     <>
       {/* Header */}
-      <section className="bg-navy pt-36 pb-20">
+      <section className="bg-navy pt-[28rem] pb-20">
         <div className="mx-auto max-w-7xl px-5 sm:px-8">
           <p className="text-xs font-semibold uppercase tracking-[0.2em] text-copper">Transparent pricing</p>
           <h1 className="mt-4 text-white" style={{ fontSize: "3.5rem", lineHeight: "3.75rem" }}>

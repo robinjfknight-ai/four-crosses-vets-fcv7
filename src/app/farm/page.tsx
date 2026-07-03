@@ -13,13 +13,12 @@ export default function FarmPage() {
   return (
     <>
       {/* Hero */}
-      <section className="relative flex min-h-[75vh] flex-col items-start justify-end pb-20">
+      <section className="relative flex min-h-[65vh] flex-col items-start justify-end pb-20">
         {/* eslint-disable-next-line @next/next/no-img-element */}
         <img
           src="/images/farm-cow-caesar.jpg"
           alt="Farm veterinary work with cattle"
-          className="absolute inset-0 h-full w-full object-cover"
-          style={{ objectPosition: "center 40%" }}
+          className="absolute inset-0 h-full w-full object-cover object-center"
         />
         <div className="absolute inset-0 bg-gradient-to-t from-dark/92 via-dark/45 to-dark/5" />
         <div className="relative mx-auto w-full max-w-7xl px-5 sm:px-8">
