@@ -36,7 +36,7 @@ export function SiteFooter() {
                 width={500}
                 height={208}
                 style={{ filter: "invert(1)" }}
-                className="h-96 w-auto object-contain mix-blend-screen opacity-90"
+                className="h-16 w-auto object-contain mix-blend-screen opacity-90"
               />
             </Link>
             <p className="mt-4 text-sm leading-relaxed text-white/50">

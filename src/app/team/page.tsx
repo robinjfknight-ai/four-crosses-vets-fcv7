@@ -45,10 +45,10 @@ export default function TeamPage() {
       <section className="relative flex min-h-[55vh] flex-col items-start justify-end pb-20">
         {/* eslint-disable-next-line @next/next/no-img-element */}
         <img
-          src="/images/hero-rich.jpg"
-          alt="Four Crosses vet team"
+          src="/images/team/richard-newing.jpg"
+          alt="Four Crosses vet in the Powys countryside"
           className="absolute inset-0 h-full w-full object-cover"
-          style={{ objectPosition: "center 55%" }}
+          style={{ objectPosition: "center 30%" }}
         />
         <div className="absolute inset-0 bg-gradient-to-t from-dark/92 via-dark/50 to-dark/10" />
         <div className="relative mx-auto w-full max-w-7xl px-5 sm:px-8">

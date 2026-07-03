@@ -16,10 +16,10 @@ export default function SmallAnimalsPage() {
       <section className="relative flex min-h-[65vh] flex-col items-start justify-end pb-20">
         {/* eslint-disable-next-line @next/next/no-img-element */}
         <img
-          src="/images/hero-becca.jpg"
-          alt="Veterinary surgeon with a large dog"
+          src="/images/hero-rich.jpg"
+          alt="Veterinary surgeon with a small animal patient"
           className="absolute inset-0 h-full w-full object-cover"
-          style={{ objectPosition: "center 35%" }}
+          style={{ objectPosition: "center 30%" }}
         />
         <div className="absolute inset-0 bg-gradient-to-t from-dark/90 via-dark/40 to-dark/5" />
         <div className="relative mx-auto w-full max-w-7xl px-5 sm:px-8">

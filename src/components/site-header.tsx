@@ -24,7 +24,7 @@ export function SiteHeader() {
           : "bg-gradient-to-b from-dark/80 to-transparent"
       }`}
     >
-      <div className="mx-auto flex py-5 max-w-7xl items-center justify-between px-5 sm:px-8">
+      <div className="mx-auto flex h-28 max-w-7xl items-center justify-between px-5 sm:px-8">
         {/* Logo */}
         <Link href="/" className="shrink-0">
           <img
@@ -33,7 +33,7 @@ export function SiteHeader() {
             width={500}
             height={208}
             style={{ filter: "invert(1)" }}
-            className="h-96 w-auto object-contain mix-blend-screen"
+            className="h-16 w-auto object-contain mix-blend-screen"
           />
         </Link>
 

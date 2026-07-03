@@ -48,10 +48,10 @@ export default function HomePage() {
       <section className="relative flex min-h-[70vh] flex-col items-start justify-end pb-20">
         {/* eslint-disable-next-line @next/next/no-img-element */}
         <img
-          src="/images/hero-rich.jpg"
-          alt="Veterinary surgeon with a patient"
+          src="/images/hero-becca.jpg"
+          alt="Veterinary surgeon holding a Saint Bernard puppy"
           className="absolute inset-0 h-full w-full object-cover"
-          style={{ objectPosition: "center 55%" }}
+          style={{ objectPosition: "center 15%" }}
         />
         <div className="absolute inset-0 bg-gradient-to-t from-dark/95 via-dark/50 to-dark/10" />
         <div className="relative mx-auto w-full max-w-7xl px-5 sm:px-8">
