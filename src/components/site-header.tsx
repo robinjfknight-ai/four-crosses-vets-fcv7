@@ -24,7 +24,7 @@ export function SiteHeader() {
           : "bg-gradient-to-b from-dark/80 to-transparent"
       }`}
     >
-      <div className="mx-auto flex h-28 max-w-7xl items-center justify-between px-5 sm:px-8">
+      <div className="mx-auto flex h-20 max-w-7xl items-center justify-between px-5 sm:px-8 lg:h-24 xl:h-28">
         {/* Logo */}
         <Link href="/" className="shrink-0">
           <img
@@ -33,12 +33,12 @@ export function SiteHeader() {
             width={500}
             height={208}
             style={{ filter: "invert(1)" }}
-            className="h-16 w-auto object-contain mix-blend-screen"
+            className="h-10 w-auto object-contain mix-blend-screen lg:h-12 xl:h-16"
           />
         </Link>
 
         {/* Desktop nav */}
-        <nav className="hidden items-center gap-6 lg:flex">
+        <nav className="hidden items-center gap-3 lg:flex xl:gap-6">
           {nav.map(({ href, label }) => (
             <Link
               key={href}
@@ -53,7 +53,7 @@ export function SiteHeader() {
         {/* CTA */}
         <a
           href={main.phoneHref}
-          className="hidden items-center gap-2 rounded-full bg-copper px-5 py-2.5 text-sm font-semibold text-white transition-colors hover:bg-copper-dark lg:flex"
+          className="hidden items-center gap-2 rounded-full bg-copper px-4 py-2.5 text-sm font-semibold text-white transition-colors hover:bg-copper-dark lg:flex xl:px-5"
         >
           <PhoneIcon className="h-4 w-4" />
           {main.phone}
