@@ -18,7 +18,8 @@ export default function FarmPage() {
         <img
           src="/images/farm-cow-caesar.jpg"
           alt="Farm veterinary work with cattle"
-          className="absolute inset-0 h-full w-full object-cover object-center"
+          className="absolute inset-0 h-full w-full object-cover"
+          style={{ objectPosition: "center 50%" }}
         />
         <div className="absolute inset-0 bg-gradient-to-t from-dark/92 via-dark/45 to-dark/5" />
         <div className="relative mx-auto w-full max-w-7xl px-5 sm:px-8">

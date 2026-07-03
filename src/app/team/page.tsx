@@ -47,7 +47,8 @@ export default function TeamPage() {
         <img
           src="/images/hero-rich.jpg"
           alt="Four Crosses vet team"
-          className="absolute inset-0 h-full w-full object-cover object-top"
+          className="absolute inset-0 h-full w-full object-cover"
+          style={{ objectPosition: "center 55%" }}
         />
         <div className="absolute inset-0 bg-gradient-to-t from-dark/92 via-dark/50 to-dark/10" />
         <div className="relative mx-auto w-full max-w-7xl px-5 sm:px-8">

@@ -18,7 +18,8 @@ export default function SmallAnimalsPage() {
         <img
           src="/images/hero-becca.jpg"
           alt="Veterinary surgeon with a large dog"
-          className="absolute inset-0 h-full w-full object-cover object-top"
+          className="absolute inset-0 h-full w-full object-cover"
+          style={{ objectPosition: "center 35%" }}
         />
         <div className="absolute inset-0 bg-gradient-to-t from-dark/90 via-dark/40 to-dark/5" />
         <div className="relative mx-auto w-full max-w-7xl px-5 sm:px-8">
